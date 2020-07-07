@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiFillVideoCamera,AiOutlineUserAdd,AiOutlineMenu } from "react-icons/ai";
+import { FaCamera,FaUserPlus,FaAlignJustify } from "react-icons/fa";
 
 export default function({name, numberOfUsers}) {
 	
@@ -13,9 +13,9 @@ export default function({name, numberOfUsers}) {
 				</div>
 			</div>
 			<div className="options">
-				<AiFillVideoCamera />
-				<AiOutlineUserAdd />
-				<AiOutlineMenu />
+				<FaCamera />
+				<FaUserPlus />
+				<FaAlignJustify />
 			</div>
 		</div>
 	);
